@@ -1,0 +1,151 @@
+[debug] [2018-10-06T01:09:10.304Z] ----------------------------------------------------------------------
+[debug] [2018-10-06T01:09:10.314Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\andre\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only hosting
+[debug] [2018-10-06T01:09:10.314Z] CLI Version:   5.0.1
+[debug] [2018-10-06T01:09:10.314Z] Platform:      win32
+[debug] [2018-10-06T01:09:10.314Z] Node Version:  v8.11.3
+[debug] [2018-10-06T01:09:10.314Z] Time:          Fri Oct 05 2018 20:09:10 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-10-06T01:09:10.314Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-06T01:09:10.372Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-06T01:09:10.375Z] > authorizing via signed-in user
+[debug] [2018-10-06T01:09:10.376Z] [iam] checking project friendlychat-5728b for permissions ["firebase.projects.get"]
+[debug] [2018-10-06T01:09:10.385Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-5728b:testIamPermissions  
+
+[debug] [2018-10-06T01:09:10.632Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+[debug] [2018-10-06T01:21:41.939Z] ----------------------------------------------------------------------
+[debug] [2018-10-06T01:21:41.949Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\andre\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only hosting
+[debug] [2018-10-06T01:21:41.950Z] CLI Version:   5.0.1
+[debug] [2018-10-06T01:21:41.950Z] Platform:      win32
+[debug] [2018-10-06T01:21:41.950Z] Node Version:  v8.11.3
+[debug] [2018-10-06T01:21:41.952Z] Time:          Fri Oct 05 2018 20:21:41 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-10-06T01:21:41.952Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-06T01:21:42.002Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-06T01:21:42.007Z] > authorizing via signed-in user
+[debug] [2018-10-06T01:21:42.008Z] [iam] checking project friendlychat-5728b for permissions ["firebase.projects.get"]
+[debug] [2018-10-06T01:21:42.019Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-06T01:21:42.021Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-10-06T01:21:42.667Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-06T01:21:42.695Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-5728b:testIamPermissions  
+
+[debug] [2018-10-06T01:21:43.423Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-06T01:21:43.432Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-5728b  
+ 
+[debug] [2018-10-06T01:21:44.030Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\andre\Google Drive\Training\BACK END WEB PROJECTS\node\chat\friendlychat\web-start'...
+[info] 
+[debug] [2018-10-06T01:21:44.050Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/600587696302/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-06T01:21:44.782Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-10-06T01:22:30.592Z] Error: connect ETIMEDOUT 172.217.28.99:443
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-06T01:22:30.602Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:557:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-06T01:23:25.774Z] ----------------------------------------------------------------------
+[debug] [2018-10-06T01:23:25.784Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\andre\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only hosting
+[debug] [2018-10-06T01:23:25.784Z] CLI Version:   5.0.1
+[debug] [2018-10-06T01:23:25.784Z] Platform:      win32
+[debug] [2018-10-06T01:23:25.784Z] Node Version:  v8.11.3
+[debug] [2018-10-06T01:23:25.784Z] Time:          Fri Oct 05 2018 20:23:25 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-10-06T01:23:25.784Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-06T01:23:25.829Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-06T01:23:25.834Z] > authorizing via signed-in user
+[debug] [2018-10-06T01:23:25.834Z] [iam] checking project friendlychat-5728b for permissions ["firebase.projects.get"]
+[debug] [2018-10-06T01:23:25.844Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-5728b:testIamPermissions  
+
+[debug] [2018-10-06T01:23:26.863Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-06T01:23:26.868Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-5728b  
+ 
+[debug] [2018-10-06T01:23:27.492Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\andre\Google Drive\Training\BACK END WEB PROJECTS\node\chat\friendlychat\web-start'...
+[info] 
+[debug] [2018-10-06T01:23:27.517Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/600587696302/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-06T01:23:28.112Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-10-06T01:36:06.313Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-06T01:36:06.326Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:557:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-06T01:36:06.452Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-06T01:36:06.461Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:557:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-10-06T01:38:47.014Z] ----------------------------------------------------------------------
+[debug] [2018-10-06T01:38:47.026Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\andre\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only hosting
+[debug] [2018-10-06T01:38:47.027Z] CLI Version:   5.0.1
+[debug] [2018-10-06T01:38:47.027Z] Platform:      win32
+[debug] [2018-10-06T01:38:47.028Z] Node Version:  v8.11.3
+[debug] [2018-10-06T01:38:47.030Z] Time:          Fri Oct 05 2018 20:38:47 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-10-06T01:38:47.030Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-06T01:38:47.112Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-06T01:38:47.115Z] > authorizing via signed-in user
+[debug] [2018-10-06T01:38:47.117Z] [iam] checking project friendlychat-5728b for permissions ["firebase.projects.get"]
+[debug] [2018-10-06T01:38:47.128Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-5728b:testIamPermissions  
+
+[debug] [2018-10-06T01:38:58.529Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+[debug] [2018-10-06T01:39:40.589Z] ----------------------------------------------------------------------
+[debug] [2018-10-06T01:39:40.603Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\andre\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only hosting
+[debug] [2018-10-06T01:39:40.604Z] CLI Version:   5.0.1
+[debug] [2018-10-06T01:39:40.604Z] Platform:      win32
+[debug] [2018-10-06T01:39:40.605Z] Node Version:  v8.11.3
+[debug] [2018-10-06T01:39:40.607Z] Time:          Fri Oct 05 2018 20:39:40 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-10-06T01:39:40.607Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-06T01:39:40.675Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-06T01:39:40.679Z] > authorizing via signed-in user
+[debug] [2018-10-06T01:39:40.680Z] [iam] checking project friendlychat-5728b for permissions ["firebase.projects.get"]
+[debug] [2018-10-06T01:39:40.696Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-5728b:testIamPermissions  
+
+[debug] [2018-10-06T01:39:41.049Z] Error: getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com cloudresourcemanager.googleapis.com:443
